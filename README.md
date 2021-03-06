@@ -5,8 +5,15 @@ This repo contains my solutions to the Daily Coding Problem
 
 ## Current Progress
 - #1: Two Sum
+    - DP
 - #2: Product Array
+    - Chunking List
 - #3: Serialize & Deserialize Tree
+    - Serialization
 - #4: First Missing Positive Num
-- #5: Functional Programming
-- #6: Xor Linkedlist
+    - Counting (Sorta DP)
+- #5: Functional Programming   
+- #6: Xor Linked List
+    - Memory Management
+- #7: Decode Ways
+    - DP
