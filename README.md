@@ -19,3 +19,5 @@ This repo contains my solutions to the Daily Coding Problem
     - DP
 - #8: Count unival tree
     - Tree traversal
+- #9: Max nonadjacent sum
+    - Greedy selection

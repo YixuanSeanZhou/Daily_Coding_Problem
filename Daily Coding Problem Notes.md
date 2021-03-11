@@ -248,7 +248,7 @@ This is easy to come up with $O(n)$ space $O(n)$ time dp, but a smatter way only
 
 
 
-## Problem 8
+## Problem 8 Hard
 
 ### Problem 
 
@@ -300,3 +300,6 @@ For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2, 6`, and `5`
 
 Follow-up: Can you do this in O(N) time and constant space?
 
+### Notes:
+
+Once get a $O(n)$ algorithm, think about how to shrink the constant to make it even faster.
