@@ -17,3 +17,5 @@ This repo contains my solutions to the Daily Coding Problem
     - Memory Management
 - #7: Decode Ways
     - DP
+- #8: Count unival tree
+    - Tree traversal

@@ -246,3 +246,57 @@ Need to keep in mind when the string is not invalid (it can be invalid in the mi
 
 This is easy to come up with $O(n)$ space $O(n)$ time dp, but a smatter way only use $O(1)$ space, which his a loop based solution so even better.  
 
+
+
+## Problem 8
+
+### Problem 
+
+\# 8
+
+This problem was asked by Google.
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+
+   0
+
+  / \
+
+ 1   0
+
+​    / \
+
+   1   0
+
+  / \
+
+ 1   1
+
+### Related Problem
+
+### Leetcode #965. Univalued Binary Tree
+
+A binary tree is *univalued* if every node in the tree has the same value.
+
+Return `true` if and only if the given tree is univalued.
+
+
+
+
+
+## Problem 9 Hard
+
+### Problem
+
+This problem was asked by Airbnb.
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
+For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2, 6`, and `5`.` [5, 1, 1, 5]` should return `10`, since we pick `5` and `5`.
+
+Follow-up: Can you do this in O(N) time and constant space?
+
