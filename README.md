@@ -21,3 +21,7 @@ This repo contains my solutions to the Daily Coding Problem
     - Tree traversal
 - #9: Max nonadjacent sum
     - Greedy selection
+- #10: Scheduler
+    - Threading
+- #11: Autocomplete
+    - Trie

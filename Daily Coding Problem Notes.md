@@ -303,3 +303,77 @@ Follow-up: Can you do this in O(N) time and constant space?
 ### Notes:
 
 Once get a $O(n)$ algorithm, think about how to shrink the constant to make it even faster.
+
+READ IT CAN BE 0 OR NEGATIVE!!!!
+
+
+
+## Problem 10 Medium
+
+### Problem
+
+This problem was asked by Apple.
+
+Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+
+Solution:
+
+```python
+from time import sleep
+import threading
+
+class Scheduler:
+    def __init__(self):
+        self.fns = [] # tuple of (fn, time)
+        t = threading.Thread(target=self.poll)
+        t.start()
+
+    def poll(self):
+        while True:
+            now = time() * 1000
+            for fn, due in self.fns:
+                if now > due:
+                    fn()
+            self.fns = [(fn, due) for (fn, due) in self.fns if due > now]
+            sleep(0.01)
+
+    def delay(self, f, n):
+        self.fns.append((f, time() * 1000 + n))
+```
+
+#### Notes:
+
+This problem is about threading which is things that I don't really know. 
+
+
+
+## Problem 11
+
+This problem was asked by Twitter.
+
+
+
+Implement an autocomplete system. 
+
+That is, given a query string s and a set of all possible query strings, 
+
+return all strings in the set that have s as a prefix.
+
+
+
+For example, 
+
+given the query string de and the set of strings [dog, deer, deal], 
+
+return [deer, deal].
+
+
+
+### Note:
+
+Multi-way Tries implementation
+
+Off by one error
+
+
+
